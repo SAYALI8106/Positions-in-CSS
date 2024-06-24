@@ -1,0 +1,101 @@
+<!-- Problem Statement-
+Create a simple header that sticks to the top of a webpage upon scrolling. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font {
+      font-family: 'LXGW WenKai Mono TC', monospace;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- header starts here -->
+    <header class="sticky top-0 w-screen">
+        <div class="bg-[#2f2f2f] w-full flex items-center justify-between px-10 py-6">
+        <div class= "flex items-center justify-between w-full">
+            <div>
+              <h1 class="text-xl font-semibold text-white cursor-pointer">LOGO</h1>
+            </div>
+            <nav>
+               <ul class="flex w-full items-center text-red-50  space-x-8 cursor-pointer">
+                <li class="text-xl text-white font">Home</li>
+                <li class="text-xl text-gray-400 font hover:text-white">Pricing</li>
+                <li class="text-xl text-gray-400 font hover:text-white">Contact</li>
+                <li class="text-xl text-gray-400 font hover:text-white">Terms and Condition</li>
+               </ul> 
+            </nav>
+        </div>
+        <div class="flex items-center justify-center ml-12 text-yellow-200  border border-2 border-yellow-200 rounded-xl hover:bg-yellow-200  hover:text-white">
+            <button class="w-[10rem] px-4 py-3  ">Get Started</button>
+        </div>
+    </div>
+    </header>
+    <!-- header ends here -->
+     <main class="bg-gray-50 px-1 py-1">
+        <div class="mt-10 px-5">
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 1</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 2</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 3</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 4</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 5</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 6</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 7</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 8</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 9</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 10</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 11</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 12</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+         <div class="mt-8">
+         <h1 class=" text-2xl font-bold">Heading 13</h1>
+         <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur saepe molestiae consequuntur dicta eos dolor, vero a vel perferendis porro quas placeat nam totam dolorem, quibusdam, neque maiores pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur error dolorum ipsum fugiat, qui asperiores. Tempore, autem adipisci? Esse praesentium aperiam sit cum voluptas nulla tempora distinctio officiis itaque voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam accusantium voluptatum nesciunt deleniti veritatis quam eius temporibus omnis similique a voluptatibus sunt, incidunt in eveniet dolor? Sed, cumque illo.</p>
+        </div>
+        </div>
+     </main>
+</body>
+</html>

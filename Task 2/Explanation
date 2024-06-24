@@ -1,0 +1,26 @@
+Problem Statement-
+Explain the difference between Absolute and Relative positioning.
+->
+1.Absolute Positioning
+What it is: When you set an element to have position: absolute, you are telling it to position itself based on the closest ancestor element that has a position set (like relative, absolute, fixed, or sticky). If none of its ancestors have a position set, it will position itself relative to the whole page.
+
+How it behaves:
+
+Out of the normal flow: This means that the element will be taken out of the regular flow of elements, so it won't push other elements around or be pushed by them.
+Positioning: You can use the top, right, bottom, and left properties to specify exactly where you want this element to be, relative to its containing block.
+Example: If you have a container and you want a box inside it to always be at the top-left corner of the container, you can use absolute positioning for the box.
+
+2.Relative Positioning
+What it is: Setting an element to position: relative means you want to move it relative to where it would normally be in the document.
+
+How it behaves:
+
+Stays in the normal flow: Unlike absolute positioning, a relatively positioned element remains in the flow of elements, meaning it still takes up space where it originally was. This means other elements will still treat it as if it's in its original spot.
+Positioning: You can use top, right, bottom, and left properties to nudge the element from its original position.
+Example: If you have a paragraph and you want to move it slightly down or to the right without changing the layout of other elements, you can use relative positioning.
+
+Comparing the Two:
+1.Absolute positioning is like taking an element out of the normal lineup and placing it exactly where you want within its container or the whole page. This is great for things like overlays or specific placement needs.
+2.Relative positioning is like keeping the element in the lineup but moving it a bit from its original spot, useful for making minor adjustments.
+
+In summary, use absolute positioning when you need precise control over where an element appears and it doesn't need to interact with other elements around it. Use relative positioning when you want to slightly adjust an element's position without affecting the layout flow.
